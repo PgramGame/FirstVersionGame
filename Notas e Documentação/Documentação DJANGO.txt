@@ -1,0 +1,3 @@
+*View* SEMPRE RECEBE:
+	request
+	return

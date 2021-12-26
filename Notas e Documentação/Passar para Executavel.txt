@@ -1,0 +1,2 @@
+(Sem Prompt) pyinstaller --onefile --noconsole nomearquivo.py
+(Com Prompt) pyinstaller --onefile nomearquivo.py

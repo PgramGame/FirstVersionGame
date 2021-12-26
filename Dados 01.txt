@@ -1,0 +1,110 @@
+Nome = 'Goha'
+Classe = 'Guerreiro'
+
+            
+Nome = 'Jan Pier'
+Classe = 'Não definido'
+
+
+Nome = 'Alpha Joel'
+Classe = 'Guerreiro'
+
+
+Nome = 'Tiwi'
+Classe = 'Arqueiro'
+
+
+Nome = 'Barnabas'
+Classe = 'Guerreiro'
+                
+
+Nome = 'Evolvingeye'
+Classe = 'Bolseiro'
+                
+
+Nome = 'Damalto'
+Classe = 'Tanque'
+
+
+Nome = 'Bjornaraa'
+Classe = 'Guerreiro'
+                
+
+Nome = 'Krisyiu'
+Classe = 'Guerreiro'
+
+
+Nome = 'Oliver'
+Classe = 'Ladrão'
+                
+
+Nome = 'Peculiar'
+Classe = 'Curandeira'
+                
+
+Nome = 'Miguelleon'
+Classe = 'Mago'
+
+
+Nome = 'Alx'
+Classe = 'Guerreiro'
+                
+
+Nome = 'Ayla'
+Classe = 'Arqueira'
+                
+
+Nome = 'Jmoodaliar'
+Classe = 'Ancião'
+                
+
+Nome = 'Davide'
+Classe = 'Guerreiro'
+                
+
+Nome = 'Kinroman'
+Classe = 'Ancião'
+                
+
+Nome = 'Rex'
+Classe = 'Mago'
+                
+ 
+Nome = 'Sadrak'
+Classe = 'Invisivel'
+                
+
+Nome = 'Rom Pommie'
+Classe = 'Mago'
+                
+
+Nome = 'Bornart'
+Classe = 'Guerreiro'
+             
+   
+Nome = 'Pressio'
+Classe = 'Guerreiro'
+                
+
+Nome = 'Logan'
+Classe = 'Tanque'
+
+
+Nome = 'Basit Rather'
+Classe = 'Invisivel'
+
+
+Nome = 'Field'
+Classe = 'Tanque'
+                
+
+Nome = 'Jesper'
+Classe = 'Invisivel'
+                
+
+Nome = 'Billy Lord'
+Classe = 'Ancião'
+
+
+Nome = 'Fahr'
+Classe = 'Tanque'

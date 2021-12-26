@@ -1,0 +1,33 @@
+
+
+
+
+'''[sg.Text('Vamos nós conectar!')],
+            [sg.Checkbox('Gmail',key='gmail'),sg.Checkbox('Outlook',key='outlook'),sg.Checkbox('Facebook',key='facebook')],
+            [sg.Text('Versão Pro')],
+            [sg.Radio('Sim','Cartões',key='sim_vers'),sg.Radio('Não','Cartões',key='nao_vers')],
+            [sg.Slider(range=(0,255),default_value=0,orientation='h',size=(15,20),key='sliderspeed')],'''
+
+
+
+    def Iniciar(self):
+        while True:
+            #Extrair Dados da Tela
+            self.button, self.values = self.janela.Read()
+
+            login = self.values['login']
+            senha = self.values['senha']
+            comp_gmail = self.values['gmail']
+            comp_out = self.values['outlook']
+            comp_face = self.values['facebook']
+            sim_vers = self.values['sim_vers']
+            nao_vers = self.values['nao_vers']
+            speed_script = self.values['sliderspeed']
+            print(f'login: {login}\nGmail: {comp_gmail}\nOutlook: {comp_out}\nFacebook: {comp_face}\nVersão Pro: {sim_vers}')
+            print(f'Versão Pro: {nao_vers}\nVelocidade Scripts: {speed_script}')
+
+
+
+
+tela = TelaPython()
+tela.Iniciar()

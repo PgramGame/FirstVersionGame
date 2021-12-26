@@ -1,0 +1,393 @@
+ BLOCO 00 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _00_goha = r'.\Imagens PGRam\Card Person\0_Goha.png'
+    Numero_0 = {'Nome': 'Goha', 'Classe': 'Guerreiro',  'Vida': 3100,
+                'Ataque': 1700, 'Defesa': 600, 'Força': 150, 'Magia': 0, 'Regeneracao': 20}
+    button_block = [
+        [sg.Button('Goha', size=(15, 0), key='_bgoha_')],
+    ]
+    block_0 = [
+        [sg.Image(_00_goha)],
+        [sg.Text((Numero_0['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 01 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _01_JanPier = r'.\Imagens PGRam\Card Person\1_JanPier.png'
+    Numero_1 = {'Nome': 'Jan Pier', 'Classe': 'Mago', 'Vida': 2900,
+                'Ataque': 1340, 'Defesa': 920, 'Força': 0, 'Magia': 1340, 'Regeneracao': 38}
+    button_block = [
+        [sg.Button('Jan Pier', size=(15, 0), key='_bJanPier_')],
+    ]
+    block_01 = [
+        [sg.Image(_01_JanPier)],
+        [sg.Text((Numero_1['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 02 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _02_AlphaJoel = r'.\Imagens PGRam\Card Person\2_AlphaJoel.png'
+    Numero_2 = {'Nome': 'Alpha Joel', 'Classe': 'Guerreiro', 'Vida': 3000,
+                'Ataque': 1200, 'Defesa': 750, 'Força': 1200, 'Magia': 0, 'Regeneracao': 55}
+    button_block = [
+        [sg.Button('Alpha Joel', size=(15, 0), key='_balphaJoel_')],
+    ]
+    block_02 = [
+        [sg.Image(_02_AlphaJoel)],
+        [sg.Text((Numero_2['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 03 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _03_Tiwi = r'.\Imagens PGRam\Card Person\3_Tiwi.png'
+    Numero_3 = {'Nome': 'Tiwi', 'Classe': 'Arqueiro', 'Vida': 2900, 'Ataque': 1300, 'Defesa': 900,
+                'Força': 900, 'Magia': 200, 'Regeneracao': 30}
+    button_block = [
+        [sg.Button('Tiwi', size=(15, 0), key='_btiwi_')],
+    ]
+    block_3 = [
+        [sg.Image(_03_Tiwi)],
+        [sg.Text((Numero_3['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 04 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _04_Barnabas = r'.\Imagens PGRam\Card Person\4_Barnabas.png'
+    Numero_4 = {'Nome': 'Barnabas', 'Classe':  'Guerreiro', 'Vida': 3250, 'Ataque': 1450, 'Defesa': 950,
+                'Força': 1075, 'Magia': 0, 'Regeneracao': 40}
+    button_block = [
+        [sg.Button('Barnabas', size=(15, 0), key='_bbarnabas_')],
+    ]
+    block_4 = [
+        [sg.Image(_04_Barnabas)],
+        [sg.Text((Numero_4['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 05 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _05_Evolvingeye = r'.\Imagens PGRam\Card Person\5_Evolvingeye.png'
+    Numero_5 = {'Nome': 'Evolvingeye', 'Classe': 'Bolseiro', 'Vida': 2800,
+                'Ataque': 1300, 'Defesa': 950, 'Força': 1300, 'Magia': 1400, 'Regeneracao': 40}
+    button_block = [
+        [sg.Button('Evolvingeye', size=(15, 0), key='_bevolvingeye_')],
+    ]
+    block_5 = [
+        [sg.Image(_05_Evolvingeye)],
+        [sg.Text((Numero_5['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 06 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _06_Damalto = r'.\Imagens PGRam\Card Person\6_Damalto.png'
+    Numero_6 = {'Nome': 'Damalto', 'Classe':  'Tanque', 'Vida': 7000, 'Ataque': 1380, 'Defesa': 950,
+                'Força': 1380, 'Magia': 0, 'Regeneracao': 60}
+    button_block = [
+        [sg.Button('Damalto', size=(15, 0), key='_bdamalto_')],
+
+    ]
+    block_6 = [
+        [sg.Image(_06_Damalto)],
+        [sg.Text((Numero_6['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 07 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _07_Bjornaraa = r'.\Imagens PGRam\Card Person\7_Bjornaraa.png'
+    Numero_7 = {'Nome': 'Bjornaraa', 'Classe':  'Guerreiro', 'Vida': 3500, 'Ataque': 1200, 'Defesa': 850,
+                'Força': 1200, 'Magia': 0, 'Regeneracao': 30}
+    button_block = [
+        [sg.Button('Bjornaraa', size=(15, 0), key='_bbjornaraa_')],
+    ]
+    block_7 = [
+        [sg.Image(_07_Bjornaraa)],
+        [sg.Text((Numero_7['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 08 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _08_Krisyiu = r'.\Imagens PGRam\Card Person\8_Krisyiu.png'
+    Numero_8 = {'Nome': 'Krisyiu', 'Classe':  'Guerreiro', 'Vida': 3550, 'Ataque': 1350, 'Defesa': 800,
+                'Força': 1250, 'Magia': 0, 'Regeneracao': 32}
+    button_block = [
+        [sg.Button('Krisyiu', size=(15, 0), key='_bkrisyiu_')],
+    ]
+    block_8 = [
+        [sg.Image(_08_Krisyiu)],
+        [sg.Text((Numero_8['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 09 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _09_Oliver = r'.\Imagens PGRam\Card Person\9_Oliver.png'
+    Numero_9 = {'Nome': 'Oliver', 'Classe':  'Ladrão', 'Vida': 2700, 'Ataque': 1100, 'Defesa': 960,
+                'Força': 1100, 'Magia': 0, 'Regeneracao': 30}
+    button_block = [
+        [sg.Button('Oliver', size=(15, 0), key='_boliver_')],
+    ]
+    block_9 = [
+        [sg.Image(_09_Oliver)],
+        [sg.Text((Numero_9['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 10 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _10_Peculiar = r'.\Imagens PGRam\Card Person\10_Peculiar.png'
+    Numero_10 = {'Nome': 'Peculiar', 'Classe': 'Curandeira', 'Vida': 3250,
+                 'Ataque': 1350, 'Defesa': 980, 'Força': 1350, 'Magia': 0, 'Regeneracao': 90}
+    button_block = [
+        [sg.Button('Peculiar', size=(15, 0), key='_bpeculiar_')],
+    ]
+    block_10 = [
+        [sg.Image(_10_Peculiar)],
+        [sg.Text((Numero_10['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 11 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _11_Miguelleon = r'.\Imagens PGRam\Card Person\11_Miguelleon.png'
+    Numero_11 = {'Nome': 'Miguelleon', 'Classe':  'Mago', 'Vida': 3000, 'Ataque': 1400, 'Defesa': 1000,
+                 'Força': 1250, 'Magia': 1400, 'Regeneracao': 50}
+    button_block = [
+        [sg.Button('Miguelleon', size=(15, 0), key='_bmiguelleon_')],
+    ]
+    block_11 = [
+        [sg.Image(_11_Miguelleon)],
+        [sg.Text((Numero_11['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 12 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _12_Alx = r'.\Imagens PGRam\Card Person\12_Alx.png'
+    Numero_12 = {'Nome': 'Alx', 'Classe':  'Guerreiro', 'Vida': 3100, 'Ataque': 1500, 'Defesa': 850,
+                 'Força': 1500, 'Magia': 0, 'Regeneracao': 45}
+    button_block = [
+        [sg.Button('Alx', size=(15, 0), key='_balx_')],
+    ]
+    block_12 = [
+        [sg.Image(_12_Alx)],
+        [sg.Text((Numero_12['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 13 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _13_Ayla = r'.\Imagens PGRam\Card Person\13_Ayla.png'
+    Numero_13 = {'Nome': 'Ayla', 'Classe': 'Arqueira', 'Vida': 2750,
+                 'Ataque': 1350, 'Defesa': 880, 'Força': 1350, 'Magia': 0, 'Regeneracao': 40}
+
+    button_block = [
+        [sg.Button('Ayla', size=(15, 0), key='_bayla_')],
+    ]
+    block_13 = [
+        [sg.Image(_13_Ayla)],
+        [sg.Text((Numero_13['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 14 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _14_Jmoodaliar = r'.\Imagens PGRam\Card Person\14_Jmoodaliar.png'
+    Numero_14 = {'Nome': 'Jmoodaliar', 'Classe': 'Anciao', 'Vida': 2800,
+                 'Ataque': 1400, 'Defesa': 960, 'Força': 1400, 'Magia': 0, 'Regeneracao': 60}
+    button_block = [
+        [sg.Button('Jmoodaliar', size=(15, 0), key='_bjmoodaliar_')],
+    ]
+    block_14 = [
+        [sg.Image(_14_Jmoodaliar)],
+        [sg.Text((Numero_14['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 15 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _15_Davide = r'.\Imagens PGRam\Card Person\15_Davide.png'
+    Numero_15 = {'Nome': 'Davide', 'Classe': 'Guerreiro', 'Vida': 3550,
+                 'Ataque': 1300, 'Defesa': 900, 'Força': 1300, 'Magia': 0, 'Regeneracao': 45}
+    button_block = [
+        [sg.Button('Davide', size=(15, 0), key='_bdavide_')],
+    ]
+    block_15 = [
+        [sg.Image(_15_Davide)],
+        [sg.Text((Numero_15['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 16 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _16_Kinroman = r'.\Imagens PGRam\Card Person\16_Kinroman.png'
+    Numero_16 = {'Nome': 'Kinroman', 'Classe': 'Anciao', 'Vida': 2800,
+                 'Ataque': 1450, 'Defesa': 920, 'Força': 1450, 'Magia': 0, 'Regeneracao': 64}
+    button_block = [
+        [sg.Button('Kinroman', size=(15, 0), key='_bkinroman_')],
+    ]
+    block_16 = [
+        [sg.Image(_16_Kinroman)],
+        [sg.Text((Numero_16['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 17 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _17_Rex = r'.\Imagens PGRam\Card Person\17_Rex.png'
+    Numero_17 = {'Nome': 'Rex', 'Classe': 'Mago', 'Vida': 3100, 'Ataque': 1450,
+                 'Defesa': 940, 'Força': 0, 'Magia': 1450, 'Regeneracao': 42}
+    button_block = [
+        [sg.Button('Rex', size=(15, 0), key='_brex_')],
+    ]
+    block_17 = [
+        [sg.Image(_17_Rex)],
+        [sg.Text((Numero_17['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 18 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _18_Sadrak = r'.\Imagens PGRam\Card Person\18_Sadrak.png'
+    Numero_18 = {'Nome': 'Sadrak', 'Classe': 'Arqueiro', 'Vida': 2950,
+                 'Ataque': 1240, 'Defesa': 955, 'Força': 1240, 'Magia': 0, 'Regeneracao': 43}
+    button_block = [
+        [sg.Button('Sadrak', size=(15, 0), key='_bsadrak_')],
+    ]
+    block_18 = [
+        [sg.Image(_18_Sadrak)],
+        [sg.Text((Numero_18['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 19 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _19_RomPommie = r'.\Imagens PGRam\Card Person\19_RomPommie.png'
+    Numero_19 = {'Nome': 'Rom Pommie', 'Classe': 'Mago', 'Vida': 3000,
+                 'Ataque': 1400, 'Defesa': 950, 'Força': 0, 'Magia': 1400, 'Regeneracao': 50}
+    button_block = [
+        [sg.Button('Rom Pommie', size=(15, 0), key='_bRomPommie_')],
+    ]
+    block_19 = [
+        [sg.Image(_19_RomPommie)],
+        [sg.Text((Numero_19['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 20 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _20_Bornart = r'.\Imagens PGRam\Card Person\20_Bornart.png'
+    Numero_20 = {'Nome': 'Bornart', 'Classe': 'Guerreiro', 'Vida': 3250,
+                 'Ataque': 1400, 'Defesa': 800, 'Força': 1400, 'Magia': 0, 'Regeneracao': 60}
+    button_block = [
+        [sg.Button('Bornart', size=(15, 0), key='_bbornart_')],
+    ]
+    block_20 = [
+        [sg.Image(_20_Bornart)],
+        [sg.Text((Numero_20['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 21 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _21_Pressio = r'.\Imagens PGRam\Card Person\21_Pressio.png'
+    Numero_21 = {'Nome': 'Pressio', 'Classe': 'Guerreiro', 'Vida': 3000,
+                 'Ataque': 1500, 'Defesa': 950, 'Força': 1500, 'Magia': 0, 'Regeneracao': 60}
+    button_block = [
+        [sg.Button('Pressio', size=(15, 0), key='_bpressio_')],
+    ]
+    block_21 = [
+        [sg.Image(_21_Pressio)],
+        [sg.Text((Numero_21['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 22 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _22_Logan = r'.\Imagens PGRam\Card Person\22_Logan.png'
+    Numero_22 = {'Nome': 'Logan', 'Classe': 'Tanque', 'Vida': 7287,
+                 'Ataque': 1400, 'Defesa': 900, 'Força': 1400, 'Magia': 0, 'Regeneracao': 32}
+    button_block = [
+        [sg.Button('Logan', size=(15, 0), key='_blogan_')],
+    ]
+    block_22 = [
+        [sg.Image(_22_Logan)],
+        [sg.Text((Numero_22['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 23 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _23_BasitRather = r'.\Imagens PGRam\Card Person\23_BasitRather.png'
+    Numero_23 = {'Nome': 'Basit Rather', 'Classe': 'Mago', 'Vida': 3200,
+                 'Ataque': 1600, 'Defesa': 930, 'Força': 0, 'Magia': 1300, 'Regeneracao': 49}
+    button_block = [
+        [sg.Button('Basit Rather', size=(15, 0), key='_bbasitRather_')],
+    ]
+    block_23 = [
+        [sg.Image(_23_BasitRather)],
+        [sg.Text((Numero_23['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 24 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _24_Field = r'.\Imagens PGRam\Card Person\24_Field.png'
+    Numero_24 = {'Nome': 'Field', 'Classe': 'Tanque', 'Vida': 8000,
+                 'Ataque': 1100, 'Defesa': 850, 'Força': 1100, 'Magia': 0, 'Regeneracao': 30}
+    button_block = [
+        [sg.Button('Field', size=(15, 0), key='_bfield_')],
+    ]
+    block_24 = [
+        [sg.Image(_24_Field)],
+        [sg.Text((Numero_24['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 25 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _25_Jesper = r'.\Imagens PGRam\Card Person\25_Jesper.png'
+    Numero_25 = {'Nome': 'Jesper', 'Classe': 'Guerreiro', 'Vida': 3350,
+                 'Ataque': 1410, 'Defesa': 920, 'Força': 1410, 'Magia': 0, 'Regeneracao': 55}
+    button_block = [
+        [sg.Button('Jesper', size=(15, 0), key='_bjesper_')],
+    ]
+    block_25 = [
+        [sg.Image(_25_Jesper)],
+        [sg.Text((Numero_25['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 26 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _26_BillyLord = r'.\Imagens PGRam\Card Person\26_BillyLord.png'
+    Numero_26 = {'Nome': 'Billy Lord', 'Classe': 'Anciao', 'Vida': 3100,
+                 'Ataque': 1500, 'Defesa': 840, 'Força': 1500, 'Magia': 0, 'Regeneracao': 65}
+    button_block = [
+        [sg.Button('Billy Lord', size=(15, 0), key='_bbillyLord_')],
+    ]
+    block_26 = [
+        [sg.Image(_26_BillyLord)],
+        [sg.Text((Numero_26['Classe']))],
+        [sg.Frame('', button_block)],
+    ]
+
+    # BLOCO 27 Definidor de IMG é ATRIBUTOS para cada PERSONAGEM
+
+    _27_Fahr = r'.\Imagens PGRam\Card Person\27_Fahr.png'
+    Numero_27 = {'Nome': 'Fahr', 'Classe': 'Tanque', 'Vida': 7341,
+                 'Ataque': 1250, 'Defesa': 860, 'Força': 1250, 'Magia': 0, 'Regeneracao': 31}
+    button_block = [
+        [sg.Button('Fahr', size=(15, 0), key='_bfahr_')],
+    ]
+    block_27 = [
+        [sg.Image(_27_Fahr)],
+        [sg.Text((Numero_27['Classe']))],
+        [sg.Frame('', button_block)],
+    ]

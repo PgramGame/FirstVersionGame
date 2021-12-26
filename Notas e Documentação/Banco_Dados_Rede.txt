@@ -1,0 +1,35 @@
+0
+ID 0
+admin,0
+admin,admin
+f
+
+ID 1
+Lucas,19
+Lu,12345678
+f
+
+ID 2
+Lucas,19
+LucasAquino,Lucas123
+f
+
+ID 3
+LU,98
+LU,12345678
+f
+
+ID 4
+Erick,18
+ErickLeo,erick123
+f
+
+ID 5
+João,22
+jo123,12345678
+f
+
+ID 6
+Adail,39
+adailsilva,adail123
+f
