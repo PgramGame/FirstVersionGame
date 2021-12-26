@@ -1,0 +1,22 @@
+* Clã *
+
+Bolseiro 
+Guerreiro 
+Arqueiro
+Mago
+Ancião
+Curandeiro
+Tanque
+Ladrão
+Invisivel 
+
+* MAPAS *
+
+Cidade Principal 
+Floresta Negra
+Floresta Verde
+Floresta Branca
+Vilarejos 
+Cavernas
+Torres 
+Casarões Antigos
