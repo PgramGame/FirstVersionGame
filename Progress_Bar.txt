@@ -1,0 +1,31 @@
+'''
+            if events == 'esp_arm':
+
+                print('Especial foi usado')
+                for i in range(1000):
+
+                    events, values = Janela.Read(timeout=10)
+                    if events == sg.WINDOW_CLOSED:
+                        exit()
+                    
+                    atkPes_bar.UpdateBar(i + 1)
+                    
+                    if i == 999:
+                        break
+                    basic_atk(self)
+
+            if events == 'atk_pe':
+
+                print('Ataque Pesado foi usado')
+                for i in range(1000):
+
+                    events, values = Janela.Read(timeout=10)
+                    if events == sg.WINDOW_CLOSED:
+                        exit()
+            
+                    Esp_bar.UpdateBar(i + 1)
+
+                    if i == 999:
+                        break
+                    basic_atk(self)
+'''
